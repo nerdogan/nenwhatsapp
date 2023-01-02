@@ -92,7 +92,7 @@ func main() {
 	// Listen to Ctrl+C (you can also do something else that prevents the program from exiting)
 	for {
 		_, err = client.SendMessage(context.Background(), types.JID{
-			User:   "905533155775",
+			User:   "905533155794",
 			Server: types.DefaultUserServer,
 		}, "", &waProto.Message{
 			Conversation: proto.String("Deneme "),
